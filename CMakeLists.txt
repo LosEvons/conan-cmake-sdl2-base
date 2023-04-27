@@ -3,7 +3,8 @@ project(game)
 
 add_definitions("-std=c++20")
 
-file(GLOB SOURCES "src/*.cpp")
+include_directories(include)
+file(GLOB_RECURSE SOURCES "src/*.cpp")
 
 find_package(SDL2)
 
