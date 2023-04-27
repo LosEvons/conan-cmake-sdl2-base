@@ -1,0 +1,11 @@
+# Visual Studio
+/.vs
+
+# Build output
+/build
+/conan
+
+# cmake
+CMakeUserPresets.json
+settings.json
+Makefile
